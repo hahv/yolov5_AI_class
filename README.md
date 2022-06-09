@@ -6,8 +6,9 @@
   + For mobility dataset (15 classes), data can be downloaded from this [link](https://drive.google.com/drive/folders/12EiV92VHRoM8R9N9SL-3okPG2TU1fl5b?usp=sharing)
   + For mobility dataset (4 classes of group 2: *Micro Car, SUV, Bus, Van*), data can be downloaded from this [link](https://drive.google.com/drive/folders/12EiV92VHRoM8R9N9SL-3okPG2TU1fl5b?usp=sharing)
   + For both cases, copy file `mobility.yaml` (in downloaded data) and put it into `data` folder
+  + To train for 4 classes, edit the `mobility.yaml`
 
-+ **Step 3**: For training, run the code in the file `zrun.bat` with command prompt (terminal in macOS) - edit the batch, epoch, etc. (the argument --img 640 is fixed for pretrained model yolov5l)
++ **Step 3**: For training, run the code in the file `zrun.bat` with command prompt (terminal in macOS) - edit the batch, epoch, etc. (the argument --img 640 is fixed for pretrained model yolov5l). In case `./zrun.bat` has `Permission denied` error, give the permission by running `chmod +x zrun.bat` and then `./zrun.bat`. 
 
 + **Step 4**: For run detection, run the code in the file `zdetect.bat` with command prompt (terminal in macOS) - edit the --conf threshold and the path for image folder.
 You can change the **data augmentation configuration** in file `data/hyps/hyp.scratch-low.yaml`
