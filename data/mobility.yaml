@@ -1,6 +1,7 @@
 path: ./data/mobility 
 train: train/images
 val: valid/images
+test: test/images
 
-nc: 15
-names: ['Dump_Truck', 'Excavator', 'Helicopter', 'Kickboard', 'Micro Car', 'MiniTruck', 'MotorBike', 'SUV', 'Sedan', 'Trailer Truck', 'Van', 'airplane', 'bicycle', 'bus', 'camper van']
+nc: 4
+names: ['Micro Car', 'SUV', 'Van', 'bus']

@@ -28,6 +28,7 @@ runs/*
 data/*
 data/images/*
 !data/*.yaml
+!data/*.py
 !data/hyps
 !data/scripts
 !data/images
