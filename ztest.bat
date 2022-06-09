@@ -1,1 +1,0 @@
-python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.5 --source data/mobility/test/images
