@@ -1,0 +1,6 @@
+path: ./data/mobility 
+train: train/images
+val: valid/images
+
+nc: 15
+names: ['Dump_Truck', 'Excavator', 'Helicopter', 'Kickboard', 'Micro Car', 'MiniTruck', 'MotorBike', 'SUV', 'Sedan', 'Trailer Truck', 'Van', 'airplane', 'bicycle', 'bus', 'camper van']

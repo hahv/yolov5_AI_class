@@ -1,0 +1,1 @@
+python train.py --img 640 --batch 4 --epochs 1 --data ./data/mobility.yaml --weights ./models/yolov5l.pt --worker 1
