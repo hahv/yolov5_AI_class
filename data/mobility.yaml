@@ -1,4 +1,4 @@
-path: ./data/mobility 
+path: ./data/mobility4 
 train: train/images
 val: valid/images
 test: test/images
