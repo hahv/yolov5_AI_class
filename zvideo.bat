@@ -1,0 +1,1 @@
+python video.py --weights runs/train/exp/weights/best.pt --conf 0.5 --source ./data/mobility_test_video
