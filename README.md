@@ -16,3 +16,5 @@
 For run detection on video, run the code in the file `zvideo.bat` with command prompt (terminal in macOS) - edit the --conf threshold and the path for video/ video folder.
 
 + **Step 5**: Check the results (for training or detect) inside folder `runs`
+
+### *NOTE*:You can download pretrained models (for 4/15 classes) from [here](https://drive.google.com/drive/folders/12EiV92VHRoM8R9N9SL-3okPG2TU1fl5b?usp=sharing)
